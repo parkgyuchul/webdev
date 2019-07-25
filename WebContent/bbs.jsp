@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <title>게시판!!</title>
 </head>
-<body style="background-color : lightblue;">
+<body>
 <%
 	String userID = null;
 	if(session.getAttribute("userID") != null){
@@ -38,7 +38,7 @@
 				<span class="icon-bar"></span>
 					<!-- 아이콘 이미지 -->
 			</button>
-			<a class="navbar-brand" href="main.jsp">JSP掲示板</a>
+			<a class="navbar-brand" href="main.jsp">GYU & MIN HOMEPAGE</a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav"> <!-- navbar-nav => 네비게이션 바의 메뉴 -->
@@ -62,7 +62,7 @@
 							<li><a href="login.jsp">Login</a></li>
 							<!-- active = 활성화 되었을때 로그인, 회원가입-->
 
-							<li><a href="join.jsp">JOIN</a></li>
+							<li><a href="join.jsp">会員登録</a></li>
 
 						</ul>
 				</li>

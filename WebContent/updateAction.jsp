@@ -22,7 +22,7 @@
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
 		script.println("alert('ログインしてください。')");
-		script.println("location href = 'login.jsp'");
+		script.println("location.href = 'login.jsp'");
 		script.println("</script>");
 	}
 
@@ -35,7 +35,7 @@
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
 		script.println("alert('有効ではない内容です')");
-		script.println("location href = 'bbs.jsp'");
+		script.println("location.href = 'bbs.jsp'");
 		script.println("</script>");
 	}
 

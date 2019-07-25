@@ -24,7 +24,7 @@
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
 		script.println("alert('Already login!!')");
-		script.println("location href = 'main.jsp'");
+		script.println("location.href = 'main.jsp'");
 		script.println("</script>");
 	}
 	if(user.getUserID() == null || user.getUserPassword() == null || user.getUserName() == null ||

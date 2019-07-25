@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/bootstrap.css"><!-- 스타일시트로 css폴더의 bootstrap.css파일 사용 -->
 <title>게시판!!</title>
 </head>
-<body style="background-color : lightblue;">
+<body>
 <%
 	String userID = null;
 	if(session.getAttribute("userID") != null){
@@ -80,7 +80,20 @@
 			%>
 		</div>
 	</nav>
-	掲示板
+	<div class="container">
+		<div class="jumbotron" style="text-align: center">
+			<h1>뀨와굥이의 홈페이지 ʕ•ﻌ•ʔ</h1>
+			<p>WELCOME!!!!</p>
+			<p>
+				<img src="images/lt.png" width="250px" height="180px">
+			</p>
+			<a class="btn btn-success float-left" href="#">자세히 알아보기</a>
+		</div>
+	</div>
+
+
+
+
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>

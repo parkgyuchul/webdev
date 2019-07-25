@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/bootstrap.css"><!-- 스타일시트로 css폴더의 bootstrap.css파일 사용 -->
 <title>게시판!!</title>
 </head>
-<body style="background-color : lightblue;">
+<body>
 	<nav class="navbar navbar-inverse"> <!-- navbar-색상(inverse = 검은색, default = 색x) -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"
@@ -22,11 +22,11 @@
 				<span class="icon-bar"></span>
 					<!-- 아이콘 이미지 -->
 			</button>
-			<a class="navbar-brand" href="main.jsp">JSP 掲示板</a>
+			<a class="navbar-brand" href="main.jsp">GYU & MIN HOMEPAGE</a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav"> <!-- navbar-nav => 네비게이션 바의 메뉴 -->
-				<li><a href="main.jsp">MENU</a></li>
+				<li><a href="main.jsp">MAIN</a></li>
 				<li><a href="bbs.jsp">LIST</a></li>
 				<!-- 메뉴, 게시판의 main.jsp와 bbs.jsp의 파일로 각각 이동 -->
 			</ul>
@@ -43,7 +43,7 @@
 							<li class="active"><a href="login.jsp">Login</a></li>
 							<!-- active = 활성화 되었을때 로그인, 회원가입-->
 
-							<li><a href="join.jsp">JOIN</a></li>
+							<li><a href="join.jsp">会員登録</a></li>
 
 						</ul>
 				</li>

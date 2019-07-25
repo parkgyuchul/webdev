@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addbook>
+	<member id="1">
+		<name>takahasi daisuke</name>
+		<gender>男</gender>
+		<tel>011-1234-5678</tel>
+		<address>東京都</address>
+	</member>
+	<member id="2">
+		<name>watanabe miyuki</name>
+		<gender>女</gender>
+		<tel>010-9988-5000</tel>
+		<address>横浜市</address>
+	</member>
+	<member id="3">
+		<name>sasaki nozomi</name>
+		<gender>女</gender>
+		<tel>099-1000-1000</tel>
+		<address>千葉県</address>
+	</member>
+	<member id="4">
+		<name>tosaka kennsuke</name>
+		<gender>男</gender>
+		<tel>080-9000-5643</tel>
+		<address>福島県</address>
+	</member>
+	<member id="5">
+		<name>hamasaki ayumi</name>
+		<gender>女</gender>
+		<tel>019-8585-1230</tel>
+		<address>北海道</address>
+	</member>
+	<member id="10">
+		<name>miyazaki saburo</name>
+		<gender>男</gender>
+		<tel>011-8080-3333</tel>
+		<address>沖縄県</address>
+	</member>
+</addbook>

@@ -1,0 +1,26 @@
+create database bbs;
+
+use bbs;
+
+create table user(
+	userID varchar(20),
+	userPassword varchar(20),
+	userName varchar(20),
+	userGender varchar(20),
+	userEmail varchar(50),
+	PRIAMRY KEY (userid)
+);
+
+insert into user values('gildong','123456','gildong','man','gildong@gmail.com');
+
+commit;
+
+create table bbs(
+	bbsID int,
+	bbsTitle varchar(50),
+	userID varchar(20),
+	bbsDate datetime,
+	bbsContent varchar(2048),
+	bbsAvailable int,
+	PRIMARY KEY (bbsID)
+);
